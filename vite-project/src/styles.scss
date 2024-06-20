@@ -1,0 +1,91 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  
+    input, select, button {
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+  
+    button[type="submit"] {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  
+    button[type="button"] {
+      background-color: #dc3545;
+      color: #fff;
+      border: none;
+  
+      &:hover {
+        background-color: #c82333;
+      }
+    }
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+  
+    th {
+      background-color: #f2f2f2;
+    }
+  
+    img {
+      width: 50px;
+    }
+  
+    .status {
+      padding: 5px 10px;
+      border-radius: 5px;
+  
+      &.published {
+        background-color: #dff0d8;
+        color: #3c763d;
+      }
+  
+      &.unpublished {
+        background-color: #f2dede;
+        color: #a94442;
+      }
+    }
+  
+    button {
+      margin-right: 5px;
+      padding: 5px 10px;
+  
+      &:hover {
+        cursor: pointer;
+        opacity: 0.8;
+      }
+    }
+  }
+  
+  .filter-buttons {
+    margin-bottom: 10px;
+  
+    button {
+      margin-right: 5px;
+    }
+  }
+  
